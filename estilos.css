@@ -1,0 +1,411 @@
+body {
+    background-image: linear-gradient(to left, rgb(245, 245, 209), rgb(255, 211, 157));
+    margin-right: 5px;
+  }
+  @keyframes texto {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  body h1 {
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    color: black;
+    background-color: rgb(252, 219, 178);
+  }
+  body .logo {
+    width: 70px;
+    margin-left: 50%;
+  }
+
+  @media (max-width: 650px) {
+    body h1 {
+      text-align: center;
+    }
+    body .barrainicial p {
+      text-align: center;
+    }
+    body h2 {
+      text-align: center;
+    }
+    body h3 {
+      text-align: center;
+    }
+  }
+  body main {
+    width: 100vw;
+  }
+  body main h2 {
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+
+
+  body main h4 {
+    font-weight: bold;
+    text-align:left;
+    width: 90vw;
+    margin: 10vw;
+}
+
+  body .ambientacion {
+    width: 80vw;
+    margin: 10vw;
+  }
+  
+  footer .whatsapp {
+    position: absolute;
+  }
+  footer .instagram {
+    position: absolute;
+  }
+
+  
+
+
+  *{
+    padding: 0;
+    margin-top: 0;   
+    box-sizing: border-box;
+}
+
+
+div.gallery{
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover{
+    border: 1 px solid #ccc;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding:  15px;
+    text-align: center;
+    font-weight:900;
+}
+
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+ main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+ }
+
+ .contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+ }
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgb(51, 51, 91);
+}
+
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transform: all 300ms;
+}
+
+.caja__trasera button:hover{
+    background: whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(2, 5, 5);
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #ccc;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+
+.formulario__register{
+    display: none;
+}
+
+
+@media screen and (max-width:850px){
+
+    main{
+        margin-top: 50px;
+    }
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .caja__trasera div{
+        margin: 0px;
+        position: absolute;
+    }
+
+
+  
+
+.contenedor__login-register{
+    top: -10px;
+    left: -5px;
+    margin: auto;
+}
+
+.contenedor__login-register form{
+    position: relative;
+}
+}
+
+
+.content{
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+  }
+
+.bienvenidos{
+  border: 3px black;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+.margen{
+    margin: 10px;
+
+}
+    
+.btn1{
+   position: relative;
+   padding: 5px 15px;
+   text-decoration: none;
+   color: rgb(14, 24, 59);
+   letter-spacing: 5px;
+   border: 3px solid;
+   transition: all 0.6s ease;
+}
+.btn1:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px var(--color);
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border: 5px black;
+  }
+  
+  .item {
+    width: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .cart {
+    margin: 84px;
+    border: 2px solid #030101;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .cart h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart p {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 5px;
+  }
+  
+  #clear-cart {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #f5bc20;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #f5a961;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 3px;
+  }
+  
+  .add-to-cart.selected {
+    background-color: orange;
+  }
+
+  h4{
+    border: black;
+    border-radius: 3px;
+  }
+
+  .mb-3{
+    margin-right: 30vmin;
+  }
+  
+
+  .col-md-6{
+    margin-right: 20vmin;
+  }
+
+  .col-md-3{
+    margin-right: 100vmin;
+  }
